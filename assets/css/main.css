@@ -1097,50 +1097,6 @@ section,
   padding: 30px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
-
-@media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
-  }
-}
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
-
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -1274,60 +1230,6 @@ footer {
   padding: 15px 0;
   font-size: 16px;
 }
-
-/* Contact Row Right */
-#contact .contact-row .contact-right {
-    flex-basis: 60%;
-    min-width: 60%;
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
-    border-radius: 4px;
-    padding: 30px;
-}
-
-#contact .contact-row .contact-right form input,
-#contact .contact-row .contact-right form textarea {
-    display: block;
-    width: 100%;
-    margin: 25px 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--textColor);
-    padding: 10px 20px;
-    border: 2px solid lightgray;
-    border-radius: 2px;
-    outline: none;
-    resize: none;
-    transition: 0.5s;
-}
-#contact .contact-row .contact-right form input:focus,
-#contact .contact-row .contact-right form textarea:focus{
-    border: 2px solid var(--themeColor);
-}
-#contact .contact-row .contact-right form input[type=submit]{
-    background-color: var(--themeColor);
-    color: var(--bgColor);
-    border: 2px solid var(--themeColor);
-    font-size: 17px;
-    font-weight: 400;
-    cursor: pointer;
-}
-/* Mobile View */
-@media only screen and (max-width: 800px){
-    #contact{
-        padding: 50px;
-    }
-    #contact .contact-row{
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-@media only screen and (max-width: 500px){
-    #contact{
-        padding: 50px 10px;
-    }
-}
-/* === Contact Section End */
 
 /* Thank You Page */
 .thankyou-wrapper{
