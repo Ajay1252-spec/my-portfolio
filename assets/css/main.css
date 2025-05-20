@@ -1330,12 +1330,12 @@ footer {
 }
 #contact .contact-row .contact-right form input:focus,
 #contact .contact-row .contact-right form textarea:focus{
-    border: 2px solid var(--themeColor);
+    border: 2px solid var(white);
 }
 #contact .contact-row .contact-right form input[type=submit]{
-    background-color: var(--themeColor);
-    color: var(--bgColor);
-    border: 2px solid var(--themeColor);
+    background-color: var(white);
+    color: var(white);
+    border: 2px solid var(gray);
     font-size: 17px;
     font-weight: 400;
     cursor: pointer;
