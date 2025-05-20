@@ -1275,6 +1275,122 @@ footer {
   font-size: 16px;
 }
 
+/* Contact Row Right */
+#contact .contact-row .contact-right {
+    flex-basis: 60%;
+    min-width: 60%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact .contact-row .contact-right form input,
+#contact .contact-row .contact-right form textarea {
+    display: block;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--textColor);
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+    resize: none;
+    transition: 0.5s;
+}
+#contact .contact-row .contact-right form input:focus,
+#contact .contact-row .contact-right form textarea:focus{
+    border: 2px solid var(--themeColor);
+}
+#contact .contact-row .contact-right form input[type=submit]{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+    border: 2px solid var(--themeColor);
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* Mobile View */
+@media only screen and (max-width: 800px){
+    #contact{
+        padding: 50px;
+    }
+    #contact .contact-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #contact{
+        padding: 50px 10px;
+    }
+}
+/* === Contact Section End */
+
+/* Thank You Page */
+.thankyou-wrapper{
+  width:100%;
+  height:auto;
+  margin:auto;
+  background:#ffffff; 
+  padding:10px 0px 50px;
+}
+.thankyou-wrapper h1{
+  font:100px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#333333;
+  padding:0px 10px 10px;
+}
+.thankyou-wrapper p{
+  font:26px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#333333;
+  padding:5px 10px 10px;
+}
+.thankyou-wrapper a{
+  font:26px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#E47425;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #F96700;
+}
+.thankyou-wrapper a:hover{
+  font:26px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color:#ffffff;
+  display:block;
+  text-decoration:none;
+  width:250px;
+  background:#F96700;
+  margin:10px auto 0px;
+  padding:15px 20px 15px;
+  border-bottom:5px solid #F96700;
+}
+
+/*Mobile View*/
+@media only screen and (max-width: 800px){
+    #login-main-wrapper{
+        padding: 50px;
+    }
+    #login-main-wrapper .thankyou-wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #login-main-wrapper{
+        padding: 50px 10px;
+    }
+}
+/* Thank You Page */
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
